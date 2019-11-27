@@ -1,0 +1,49 @@
+.logo {
+    position: relative;
+    width: 37em;
+    height: 40em;
+    background: url("../img/jptk.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.email {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background: url("../img/envelope.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.email:hover {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background: url("../img/envelope-hover.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-text {
+    color: #fa7921
+}
+
+.fixed-bottom {
+    background-color: rgba(255,255,255,0.6);
+}
+
+body::after{
+   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+   content: url("../img/jptk.svg") url("../img/envelope-hover.svg") url("../img/envelope.svg");
+}
+
+html,body{
+      width:100%;
+      margin:0;
+      height:100%;
+    }
