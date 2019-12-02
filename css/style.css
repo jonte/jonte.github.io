@@ -2,7 +2,7 @@
     position: relative;
     width: 37em;
     height: 40em;
-    background: url("../img/jptk.svg");
+    background: url("../img/jptk.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -39,7 +39,7 @@ p {
 
 body::after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-   content: url("../img/jptk.svg") url("../img/envelope-hover.svg") url("../img/envelope.svg");
+   content: url("../img/jptk.png") url("../img/envelope-hover.svg") url("../img/envelope.svg");
 }
 
 html,body{
